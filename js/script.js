@@ -7,7 +7,7 @@ function searchMovies() {
 	  </div>
 		`);
     $.ajax({
-        url: 'https://smkn1lintaubuo.id/kelulusan/lulus.php',
+        url: 'https://smkn1lintaubuo.sch.id/kelulusan/lulus.php',
 		//url: 'http://localhost/KELULUSAN/SMKLINTAU/llintau/lulus.php',
         type: 'get',
         dataType: 'json',
