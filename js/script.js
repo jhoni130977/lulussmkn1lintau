@@ -52,7 +52,7 @@ function searchMovies() {
 						$('#data-list').html(`
 						    <div class="row mt-3 justify-content-center">
 								<table border=0 width=100%>
-									<tr><td>No. Ujian </td><td>: </td><td><b> ` + data.no + `</td></tr>
+									<tr><td width=33%>No. Ujian </td><td>: </td><td><b> ` + data.no + `</td></tr>
 									<tr><td valign=top>Nama Siswa </td><td valign=top>: </td><td><b> ` + data.nama + `</td></tr>
 									<tr valign=top><td valign=top>Komp. Keahlian </td><td valign=top>: </td><td><b> ` + data.sekolah + `</td></tr>
 								</table><br><br><p><p>
